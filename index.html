@@ -1,119 +1,362 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>TBRe - Coming Soon</title>
+    <title>Welcome to Team Bath Racing Electric</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/soon.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Font awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Nivo Lightbox -->
+	<link href="assets/css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="assets/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/animate.css" rel="stylesheet" />
+    <!-- Custom theme CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+</head>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<body data-spy="scroll">
 
-  </head>
-  <!-- START BODY -->
-  <body class="nomobile">
+<div class="container">
+			<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li>
+									<a href="#about" class="gn-icon gn-icon-download">About</a>
+								</li>
+								<li><a href="#service" class="gn-icon gn-icon-cog">Goals</a></li>
+								<li><a href="#works" class="gn-icon gn-icon-help">Progress</a></li>
+								<li>
+									<a href="#contact" class="gn-icon gn-icon-archive">Contact</a>
+								</li>
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<li><a href="index.html">TBR Electric</a></li>
+				<li><ul class="company-social">
+                            <li class="social-facebook"><a href="http://www.facebook.com/TeamBathRacingElectric" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-twitter"><a href="http://www.twitter.com/teambathracinge" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-google"><a href="https://plus.google.com/u/0/b/103182210458285591200/103182210458285591200/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>	</li>
+			</ul>
+	</div>
 
-    <!-- START HEADER -->
-    <section id="header">
-        <div class="container">
-            <header>
-                <!-- HEADLINE -->
-                <h1 data-animated="GoIn"><b>Team <span class="blue">Bath</span> <i>Racing</i> <small>Electric</small></b><br>Coming Soon...</h1>
-            </header>
-            <!-- START TIMER -->
-            <!--<div id="timer" data-animated="FadeIn">
-                <p id="message"></p>
-                <div id="days" class="timer_box"></div>
-                <div id="hours" class="timer_box"></div>
-                <div id="minutes" class="timer_box"></div>
-                <div id="seconds" class="timer_box"></div>
-            </div>-->
-            <!-- END TIMER -->
-            <div class="col-lg-4 col-lg-offset-4 mt centered">
-            	<h4>LET ME KNOW WHEN YOU LAUNCH</h4>
-				<form class="form-inline contact-form" role="form" name="sentMessage" id="contactForm" novalidate>
-                    <div class="col-lg-offset-1 col-lg-7">
-				  <div class="form-group">
-				    <label class="sr-only" for="email">Email address</label>
-				    <input type="email" class="form-control" placeholder="Enter email" id="email" required="" data-validation-required-message="Please enter your email address.">
-
-				  </div>
-                    </div>
-                    <div class="col-lg-3">
-				  <button type="submit" class="btn btn-info">Submit</button>
-                    </div>
-                    <div class="col-lg-12">
-                    <p class="help-block"></p>
-                    </div>
-                    <div class="col-lg-12">
-                    <div id="success"></div>
-                    </div>
-				</form>
-			</div>
-
-        </div>
-        <!-- LAYER OVER THE SLIDER TO MAKE THE WHITE TEXTE READABLE -->
-        <div id="layer"></div>
-        <!-- END LAYER -->
-        <!-- START SLIDER -->
-        <div id="slider" class="rev_slider">
-            <ul>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/1.jpg">
-                <img src="assets/img/slider/5.jpg">
-              </li>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/2.jpg">
-                <img src="assets/img/slider/6.jpg">
-              </li>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/3.jpg">
-                <img src="assets/img/slider/7.jpg">
-              </li>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/4.jpg">
-                <img src="assets/img/slider/8.jpg">
-              </li>
-            </ul>
-        </div>
-        <!-- END SLIDER -->
+	<!-- Section: intro -->
+    <section id="intro" class="intro">
+		<div class="slogan">
+			<h1><b>Team <span class="blue">Bath</span> <i>Racing</i> <small class="blue">Electric</small></b></h1>
+			<h1>Coming Soon...</h1>
+			<a href="#about" class="btn btn-skin scroll">Learn more</a>
+		</div>	
     </section>
-    <!-- END HEADER -->
+	<!-- /Section: intro -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+	<!-- Section: about -->
+    <section id="about" class="home-section text-center bg-gray">
+        <div class="container">
+            <div class="row marginbot-30">
+                <div class="col-lg-8 col-lg-offset-2">
+                        <h2>About The Project</h2>
+                    <div class="section-heading-desc">
+                        <p>Team Bath Racing Electric is a student run project at the University of Bath. Now in it's second year of running the project is gaining traction fast with interest growing from within the University and within Industry.</p>
+                        <p>TBRe hopes to show that electric racing cars competing within Formula Student can be designed and built in a sustainable way which does not impact on overall car performance. To help demonstrate this, the project makes use of second hand components where possible and undergoes a full life-cycle analysis at every stage of development. By using an old Team Bath Racing Formula Student car chasis (TBR12) and using Engineers from a range of backgrounds within the University to re-package a custom designed electric powertrain, we hope to have a working proof-of-concept vehicle in 2014/2015.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Meet The Team</h2>
+                </div>
+            </div>
+            <div class="row marginbot-20">
+                <div class="col-xs-6 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2">
+                    <div class="team boxed-grey">
+                        <h4>Dan Williams</h4>
+                        <p class="subtitle">Drivetrain Manager</p><br>
+                        <div class="avatar"><img src="assets/img/team/3.jpg" alt="" class="img-responsive" /></div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2">
+                    <div class="team boxed-grey">
+                        <h4>Simon Cooper</h4>
+                        <p class="subtitle">Control & Communications Manager</p>
+                        <div class="avatar"><img src="assets/img/team/3.jpg" alt="" class="img-responsive" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="team boxed-grey">
+                        <h4>TBC</h4>
+                        <p class="subtitle">Battery Team</p>
+                        <div class="avatar"><img src="assets/img/team/3.jpg" alt="" class="img-responsive" /></div>
+                    </div>
+                </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="team boxed-grey">
+                        <h4>TBC</h4>
+                        <p class="subtitle">Electronics Team</p>
+                        <div class="avatar"><img src="assets/img/team/3.jpg" alt="" class="img-responsive" /></div>
+                    </div>
+                </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="team boxed-grey">
+                        <h4>TBC</h4>
+                        <p class="subtitle">Drivetrain Team</p>
+                        <div class="avatar"><img src="assets/img/team/3.jpg" alt="" class="img-responsive" /></div>
+                    </div>
+                </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="team boxed-grey">
+                        <h4>TBC</h4>
+                        <p class="subtitle">Control & Communication Team</p>
+                        <div class="avatar"><img src="assets/img/team/3.jpg" alt="" class="img-responsive" /></div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>
+	<!-- /Section: about -->
+	
+	
+	<!-- Section: services -->
+    <section id="service" class="home-section text-center">
+        <div class="container">
+			<div class="row marginbot-50">
+				<div class="col-lg-8 col-lg-offset-2">
+					   <h2>Our Goals</h2>
+                    <div class="section-heading-desc">
+					   <p>Team Bath Racing Electric was setup by students, for students. The main goal of the project is to design and build a fully electric car for competition in Formula Student events. With this in mind, our initial aim is to build a car which can competitively compete with the Team Bath Racing petrol team.</p>
+                        <!--<p>With electric car racing becoming more popular with the advent of competitions such as Formula E, we aim to design a... ***</p>-->
+                        <p>TBRe helps develop the skills of students involved into a set which is relevant for the future and applicable to cross-discipline industry roles.</p>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="goal-box">
+                        <div class="goal-icon">
+                            <i class="fa fa-gears fa-3x"></i>
+                        </div>
+                            <h4>Students</h4>
+                        <div class="goal-desc">
+                            <p>Students are the life and soul of projects at any University.</p>
+                            <p>With TBRe we offer students the opportunity to develop their real world Engineering skills by working as part of a dynamic team in designing and creating a novel product throught the use of original ideas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="goal-box">
+                        <div class="goal-icon">
+                            <i class="fa fa-flag-checkered fa-3x"></i>
+                        </div>
+                            <h4>Sponsors</h4>
+                        <div class="goal-desc">
+                            <p>Working closely with students and helping to ensure the future viability of the project helps the University develop industry leading graduate Engineers.</p>
+                            <p>TBRe aims to work closely with industrial partners in order to ensure this continues to happen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>		
+		</div>
+	</section>
+	<!-- /Section: services -->
+	
+		
+	<!-- Section: works -->
+    <section id="works" class="home-section text-center bg-gray">
+		<div class="heading-works marginbot-50">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+		
+					<div class="section-heading">
+					<h2>Progress So Far</h2>
+					<p>A few photos to whet you're appetite on the project so far.</p>
+					</div>
+		
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+            <div class="row marginbot-40">
+                <div class="col-md-3">
+					<a href="assets/img/works/1.jpg" title="TBR12, the testbed" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/1.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="assets/img/works/2.jpg" title="Getting to grips with control methods" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+						<img src="assets/img/works/2.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="assets/img/works/3.jpg" title="Testing for size" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/3.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="assets/img/works/4.jpg" title="First rear axle modifications" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/4.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+            </div>
+            <div class="row">
+				<div class="col-md-3">
+					<a href="assets/img/works/5.jpg" title="Populated split rear axle" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/5.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="assets/img/works/6.jpg" title="First design exhibition" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/6.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="assets/img/works/7.jpg" title="Getting to grips with control methods" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/7.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="assets/img/works/8.jpg" title="Getting to grips with control methods" data-lightbox-gallery="gallery1" data-lightbox-hidpi="assets/img/works/1@2x.jpg">
+						<img src="assets/img/works/8.jpg" class="img-responsive" alt="img">
+					</a>
+				</div>	
+            </div>	
+		</div>
+	</section>
+	<!-- /Section: works -->
+
+	<!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+        <div class="container">
+			<div class="row marginbot-50">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="section-heading">
+                        <h2>Get in touch</h2>
+                        <p>If you're a student at the University of Bath and would like too get involved with the project, no matter what year you're in, then get in touch!</p>
+                        <p>If you like the sound of what we are doing and are interested in financially or otherwise supporting the project then we welcome any level of help.</p>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-lg-8 col-md-offset-2">
+                    <div class="boxed-grey">
+                        <form class="contact-form" name="sentMessage" id="contactForm" novalidate>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter name" id="name" required data-validation-required-message="Please enter your name." aria-invalid="false">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+
+                                            <input type="email" class="form-control" placeholder="Enter email" id="email" required data-validation-required-message="Please enter your email address.">
+                                            <p class="help-block"></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Message</label>
+                                        <textarea class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message." rows="4" cols="25"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div id="success"></div>
+                                    <button type="submit" class="btn btn-skin pull-right">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="widget-contact row">
+                         <div class="col-lg-6">
+                        <address>
+                          <strong>Team Bath Racing Electric</strong><br>
+                          University of Bath, Claverton Down<br>
+                          Bath, BA2 7AY<br>
+                          <!--<abbr title="Phone">P:</abbr> (+44) 1225 xxx xxx-->
+                        </address>
+                        </div>
+
+                        <div class="col-lg-6">
+                        <address>
+                          <strong>Email</strong><br>
+                          <a href="mailto:#">info@teambathracingelectric.com</a><br />
+                        </address>	
+
+                        </div>
+                    </div>	
+                </div>
+
+            </div>	
+
+		</div>
+	</section>
+	<!-- /Section: contact -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+		
+					<p>Copyright &copy; 2014 Team Bath Racing Electric</p>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+    <!-- Core JavaScript Files -->
     <script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/soon/plugins.js"></script>
-    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/soon/custom.js"></script>
-    <script src="assets/js/email/contact_me.js"></script>
-    <script src="assets/js/email/jqBootstrapValidation.js"></script>
-  </body>
-  <!-- END BODY -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>	
+	<script src="assets/js/classie.js"></script>
+	<script src="assets/js/gnmenu.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/nivo-lightbox.min.js"></script>
+	<script src="assets/js/stellar.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="assets/js/custom.js"></script>
+    <!-- Contact Form Javascript -->
+    <script type="text/javascript" src="/assets/js/email/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="/assets/js/email/contact_me.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-55696125-1', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-55696125-1', 'auto');
+      ga('send', 'pageview');
 
+    </script>
+    <script>
+$(document).ready(function(){
+    $('a').nivoLightbox();
+});
 </script>
+    <script>
+  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+</script>
+
+</body>
+
 </html>
